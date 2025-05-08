@@ -1,14 +1,3 @@
-@font-face {
-    font-family: 'WorkSans-Bold';
-    src: url(/assets/fonts/WorkSans-VariableFont_wght.ttf) format('truetype');
-    font-weight: 700;
-}
-
-@font-face {
-    font-family: 'WorkSans-Normal';
-    src: url(/assets/fonts/WorkSans-VariableFont_wght.ttf) format('truetype');
-    font-weight: 400;
-}
 
 :root {
     /* Colors */
@@ -18,8 +7,8 @@
     --DarkPurple: rgb(47, 21, 51);
 
     /* Fonts */
-    --WorkSans-Bold: 'WorkSans-Bold';
-    --WorkSans-Normal: 'WorkSans-Normal';
+    --WorkSans-Bold: "Work Sans", sans-serif;
+    --WorkSans-Normal: "Work Sans", sans-serif;;
 }
 
 body {
